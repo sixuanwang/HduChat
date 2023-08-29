@@ -30,7 +30,7 @@ HduChat是一个由杭州电子科技大学大滨江研究院开发完成的垂�
 | ------ | ------ |
 
 # 3、准备工作 Preparation
-由于chatglm开源协议的限制，本模型仅限于研究和学习用途使用。请严格遵守chatglm的使用要求和规范。为了确保这一点，我们需要确认您具有chatglm的原始权重，并来自完全合法渠道。<br>
+由于ChatGLM开源协议的限制，本模型仅限于研究和学习用途使用。请严格遵守chatglm的使用要求和规范。为了确保这一点，我们需要确认您具有chatglm的原始权重，并来自完全合法渠道。<br>
 部署门槛：FP16 半精度下，ChatGLM-6B 需要至少 13 GB 的显存进行推理，结合模型量化技术，这一需求可以进一步降低到 10GB（INT8）和 6GB。<br>
 部署环境：<br>
 操作系统：Ubuntu 22.04<br>
@@ -59,7 +59,8 @@ HduGPT还在在持续建设和优化中！如您对垂直领域大模型技术�
 
 # 7、Citation
 如果使用本项目的代码、数据或模型，请引用本项目。
-```@misc{HduChat,
+```
+@misc{HduChat,
  author = {Sixuan Wang, Guanhua Qu, Yongjun Zhong, Fang Xu},
  title = {HduChat: Domain Large Language Model developed by Hangzhou Dianzi University},
  year = {2023},
@@ -69,4 +70,19 @@ HduGPT还在在持续建设和优化中！如您对垂直领域大模型技术�
 }
 ```
 
-我们对chatglm团队的工作表示衷心的感谢！
+我们对ChatGLM团队的工作表示衷心的感谢！
+```
+@article{zeng2022glm,
+  title={Glm-130b: An open bilingual pre-trained model},
+  author={Zeng, Aohan and Liu, Xiao and Du, Zhengxiao and Wang, Zihan and Lai, Hanyu and Ding, Ming and Yang, Zhuoyi and Xu, Yifan and Zheng, Wendi and Xia, Xiao and others},
+  journal={arXiv preprint arXiv:2210.02414},
+  year={2022}
+}
+@inproceedings{du2022glm,
+  title={GLM: General Language Model Pretraining with Autoregressive Blank Infilling},
+  author={Du, Zhengxiao and Qian, Yujie and Liu, Xiao and Ding, Ming and Qiu, Jiezhong and Yang, Zhilin and Tang, Jie},
+  booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={320--335},
+  year={2022}
+}
+```
